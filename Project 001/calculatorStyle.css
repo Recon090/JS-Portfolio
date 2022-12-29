@@ -1,0 +1,11 @@
+#calcScreen{
+    border: 5px solid;
+    
+    width: 350px;
+    height: 100px;
+    border-radius:10px;
+    font-size: 50px;
+    font-family:Orbitron,sans-serif;
+    text-align: right;
+    
+}

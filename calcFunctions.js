@@ -97,7 +97,7 @@ function multiply(a,b){
 
 
 
-document.getElementById("equalButton").onclick = function(){
+document.getElementById("equalsButton").onclick = function(){
     let temp = document.getElementById("calcScreen").innerHTML;
 
     

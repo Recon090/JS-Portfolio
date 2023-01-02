@@ -9,34 +9,41 @@
     <title>Document</title>
 </head>
 <body id="background">
-    <p id="calcScreen">0+1+2+3</p><br>
-    <div>
-        <button class="calcButtons">C</button>
-        <button class="calcButtons">+/-</button>
-        <button class="calcButtons">(</button>
-        <button class="calcButtons">)</button><br>
-
-        
-
-
-        <button class="calcButtons">7</button>
-        <button class="calcButtons">8</button>
-        <button class="calcButtons">9</button>
-        <button class="calcButtons operators">/</button><br>
-        
-
-        <button class="calcButtons">4</button>
-        <button class="calcButtons">5</button>
-        <button class="calcButtons">6</button>
-        <button class="calcButtons operators">*</button><br>
-        <button class="calcButtons">1</button>
-        <button class="calcButtons">2</button>
-        <button class="calcButtons">3</button>
-        <button class="calcButtons operators">-</button><br>
-        <button class="calcButtons">0</button>
-        <button class="calcButtons">.</button>
-        <button class="calcButtons">=</button>
-        <button class="calcButtons operators">+</button>
+    <div id="calcBackground">
+        <p id="calcScreen"></p><br>
     </div>
+    
+    <div>
+        <button class="calcButtons" id="clearButton">C</button>
+        <button class="calcButtons" id="negativeSign">+/-</button>
+        <button class="calcButtons" id="leftPar">(</button>
+        <button class="calcButtons" id="rightPar">)</button><br>
+
+        
+
+
+        <button class="calcButtons" id="sevenButton">7</button>
+        <button class="calcButtons" id="eightButton">8</button>
+        <button class="calcButtons" id="nineButton">9</button>
+        <button class="calcButtons operators" id="divideButton">/</button><br>
+        
+
+        <button class="calcButtons" id="fourButton">4</button>
+        <button class="calcButtons" id="fiveButton">5</button>
+        <button class="calcButtons" id="sixButton">6</button>
+        <button class="calcButtons operators" id="multiplyButton">*</button><br>
+        <button class="calcButtons" id="oneButton">1</button>
+        <button class="calcButtons" id="twoButton">2</button>
+        <button class="calcButtons" id="threeButton">3</button>
+        <button class="calcButtons operators" id="minusButton">-</button><br>
+        <button class="calcButtons" id="zeroButton">0</button>
+        <button class="calcButtons" id="decimalButton">.</button>
+        <button class="calcButtons" id="equalsButton">=</button>
+        <button class="calcButtons operators" id="plusButton">+</button>
+    </div>
+
+    
+
+    <script src="calcFunctions.js"></script>
 </body>
 </html>

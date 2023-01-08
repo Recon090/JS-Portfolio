@@ -1,6 +1,3 @@
-console.log("connected");
-
-
 document.getElementById("clearButton").onclick = function(){
     document.getElementById("calcScreen").innerHTML = " ";
 }
@@ -97,8 +94,9 @@ function multiply(a,b){
 
 
 
-document.getElementById("equalButton").onclick = function(){
+document.getElementById("equalsButton").onclick = function(){
     let temp = document.getElementById("calcScreen").innerHTML;
+    let answer=0;
 
-    
+    document.getElementById("calcScreen").innerHTML= answer;
 }
